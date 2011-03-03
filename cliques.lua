@@ -142,7 +142,7 @@ Lists can be constructed with cons and accessed with tail and head
     l = cons( 1, cons( 2, cons(3 , Nil ) ) ) -- { 1,2,3 }
     cons( 5, tail(l) ) -- { 5, 2, 3}
 
-To call cliques use: Functional.cliques(data)
+To call cliques use: Functional.cliques(data,threshold)
 
 Available functions are:
 
@@ -157,7 +157,7 @@ return [[
 The following classes have been defined:
 ]] .. classes ..[[
 Object is the parent class and has the static method
-used to run cliques: Object.cliques(data)
+used to run cliques: Object.cliques(data,threshold)
 ]]
 
 end

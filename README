@@ -1,0 +1,20 @@
+Cliques Lua
+-----------
+
+Two implementations of a data clustering algorithm in Lua, one using
+Object Orientation and the other Functional programming. Lua offers
+many mechanisms to implement both paradigms and programming this has been
+a joy and a great opportunity for learning.
+
+It runs inside a Lua REPL shell, just:
+
+  $ lua
+  $ dofile 'cliques.lua'
+
+From there it should tell you what to do.
+
+There are nice implementations of some functional and OO inside techniques, worth a look!
+
+This was made as a college homework, so here is a report
+explaining it (in Brazilian portuguese): http://dl.dropbox.com/u/2701879/Cadeiras/MLP/cliques.pdf
+
